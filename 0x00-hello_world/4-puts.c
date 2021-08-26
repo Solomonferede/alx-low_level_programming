@@ -1,7 +1,8 @@
 #include<stdio.h>
-/*
- * main - prints "programming is like building multilingual puzzle
- * return - 0 if exited without error
+
+/**
+ * main - prints "Programminggg is like building a multilingual puzzle
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
