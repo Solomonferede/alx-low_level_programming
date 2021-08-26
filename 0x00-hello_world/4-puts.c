@@ -1,11 +1,7 @@
 #include<stdio.h>
 /*
- *Use the function puts
- *You are not allowed to use printf
- *Your program should end with the value 0
- *
- *main -prints "programming is like building multilingual puzzle 
- *return 0 -if exited without error 
+ * main - prints "programming is like building multilingual puzzle
+ * return - 0 if exited without error
  */
 int main(void)
 {
