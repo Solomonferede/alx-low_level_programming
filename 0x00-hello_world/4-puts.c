@@ -1,10 +1,11 @@
 #include<stdio.h>
 /*
- *C program that prints exactly "Programming is like building a multilingual
- *puzzle, followed by a new line.
  *Use the function puts
  *You are not allowed to use printf
  *Your program should end with the value 0
+ *
+ *main -prints "programming is like building multilingual puzzle 
+ *return 0 -if exited without error 
  */
 int main(void)
 {
