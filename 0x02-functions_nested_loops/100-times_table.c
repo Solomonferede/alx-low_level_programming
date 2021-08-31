@@ -18,7 +18,7 @@ void print_times_table(int n)
 				printf("%d", i * j);
 				if (i * j <= 9)
 					printf(",   ");
-				else if (i * j < =99)
+				else if (i * j <= 99)
 					printf(",  ");
 				else
 					printf(", ");
