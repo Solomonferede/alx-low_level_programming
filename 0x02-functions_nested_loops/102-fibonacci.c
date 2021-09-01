@@ -7,13 +7,15 @@
 int main(void)
 {
 	int i;
-	long int priviousSeries = 0;
+	long int priviousSeries = 1;
 	long int currentSeries = 1;
 	long int nextSeries;
 
-	for (i = 0; i <= 50; i++)
+	for (i = 0; i < 50; i++)
 	{
-		printf("%ld, ", currentSeries);
+		printf("%ld", currentSeries);
+		if (i !=  49)
+			printf(", ");
 		nextSeries = priviousSeries + currentSeries;
 		priviousSeries = currentSeries;
 		currentSeries = nextSeries;
