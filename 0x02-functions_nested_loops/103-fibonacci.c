@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	int i;
 	long int priviousSeries = 1;
 	long int currentSeries = 1;
 	long int nextSeries;
