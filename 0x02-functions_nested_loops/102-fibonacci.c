@@ -7,9 +7,9 @@
 int main(void)
 {
 	int i;
-	int priviousSeries = 0;
-	int currentSeries = 1;
-	int nextSeries;
+	long int priviousSeries = 0;
+	long int currentSeries = 1;
+	long int nextSeries;
 
 	for (i = 0; i < 50; i++)
 	{
