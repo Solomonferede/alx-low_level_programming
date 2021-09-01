@@ -11,7 +11,7 @@ int main(void)
 	long int currentSeries = 1;
 	long int nextSeries;
 
-	for (i = 0; i < 50; i++)
+	for (i = 0; i <= 50; i++)
 	{
 		printf("%ld, ", currentSeries);
 		nextSeries = priviousSeries + currentSeries;
