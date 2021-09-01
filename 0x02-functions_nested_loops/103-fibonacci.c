@@ -11,7 +11,7 @@ int main(void)
 	long int nextSeries;
 	long int sum = 0;
 
-	while(currentSeries < 4000000)
+	while (currentSeries < 4000000)
 	{
 		if (currentSeries % 2 == 0)
 			sum += currentSeries;
