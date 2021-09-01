@@ -20,7 +20,7 @@ int main(void)
 		priviousSeries = currentSeries;
 		currentSeries = nextSeries;
 	}
-	printf("\n);
+	printf("\n");
 	return (0);
 }
 
