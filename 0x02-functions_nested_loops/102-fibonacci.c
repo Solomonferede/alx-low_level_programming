@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 /**
  * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
  * followed by a new line
@@ -6,26 +6,20 @@
  */
 int main(void)
 {
-	long int i, j, k, next;
+	int i;
+	int priviousSeries = 0;
+	int currentSeries = 1;
+	int nextSeries;
 
-	j = 1;
-
-	k = 2;
-
-	for (i = 1; i <= 50; ++i)
+	for (i = 0; i < 50; i++)
 	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
-		}
-		next = j + k;
-		j = k;
-		k = next;
+		printf("%d, ", currentSeries);
+		nextSeries = priviousSeries + currentSeries;
+		priviousSeries = currentSeries;
+		currentSeries = nextSeries;
 	}
-
 	return (0);
 }
+
+
 
