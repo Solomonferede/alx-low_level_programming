@@ -1,16 +1,16 @@
 #include<stdio.h>
 #include "lists.h"
-/*
- *print_dlistint - Function that prints list of DLL
+/**
+ * print_dlistint - prints a doubly linked list
+ * @h: pointer to the list
  *
- * @h - parameter
- *
+ * Return: number of nodes in the list
  */
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t no_nodes = 0;
 
-	if(!h)
+	if (!h)
 		return (0);
 	while (h)
 	{
