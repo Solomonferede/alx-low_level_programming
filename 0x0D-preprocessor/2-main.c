@@ -14,6 +14,7 @@ int main()
 		_putchar(file[i]);
 		i++;
 	}
+	_putchar('\n');
 	return (0);
 
 }
