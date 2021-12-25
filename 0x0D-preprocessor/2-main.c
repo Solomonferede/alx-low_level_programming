@@ -2,14 +2,15 @@
 #include "main.h"
 /**
  * main - print name of compling file
- * return: 0 if sucess , non-zero otherwise
+ * Return: 0 if sucess , non-zero otherwise
  */
-int main()
+int main(void)
 {
 	int i = 0;
+	char *file;
 
-	char *file =  __FILE__;
-	while(file[i] != '\0')
+	file =  __FILE__;
+	while (file[i] != '\0')
 	{
 		_putchar(file[i]);
 		i++;
